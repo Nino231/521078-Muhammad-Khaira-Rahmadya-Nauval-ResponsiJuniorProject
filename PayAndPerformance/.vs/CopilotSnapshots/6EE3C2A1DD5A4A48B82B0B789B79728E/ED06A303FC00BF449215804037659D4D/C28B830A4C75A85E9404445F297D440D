@@ -1,0 +1,63 @@
+﻿using PayAndPerformance.Database;
+using PayAndPerformance.Models;
+using System.Data;
+
+namespace PayAndPerformance.Services
+{
+    public class DataService
+    {
+        private readonly DeveloperRepository _developerRepo;
+        private readonly ProyekRepository _proyekRepo;
+
+        public DataService(PayAndPerformance.Database.DatabaseConnection databaseConnection)
+        {
+            _developerRepo = new DeveloperRepository(databaseConnection);
+            _proyekRepo = new ProyekRepository(databaseConnection);
+        }
+
+        public void LoadDropdownProyek(ComboBox ddProyek)
+        {
+            var proyekList = _proyekRepo.GetAllProyek();
+            ddProyek.DataSource = proyekList;
+            ddProyek.DisplayMember = "Nama";
+            ddProyek.ValueMember = "Id";
+        }
+
+        public void LoadDeveloperGrid(DataGridView grid)
+        {
+            var developers = _developerRepo.GetAllDevelopers();
+            grid.DataSource = developers;
+            grid.Columns["Id"].HeaderText = "ID";
+            grid.Columns["Nama"].HeaderText = "Nama Developer";
+            grid.Columns["StatusKontrak"].HeaderText = "Status Kontrak";
+            grid.Columns["FiturSelesai"].HeaderText = "Fitur Selesai";
+            grid.Columns["JumlahBug"].HeaderText = "Jumlah Bug";
+            grid.Columns["IdProyek"].HeaderText = "ID Proyek";
+        }
+
+        public void InsertDeveloper(Developer developer)
+        {
+            _developerRepo.InsertDeveloper(developer);
+        }
+
+        public void UpdateDeveloper(Developer developer)
+        {
+            _developerRepo.UpdateDeveloper(developer);
+        }
+
+        public void DeleteDeveloper(int developerId)
+        {
+            _developerRepo.DeleteDeveloper(developerId);
+        }
+
+        public List<Developer> GetAllDevelopers()
+        {
+            return _developerRepo.GetAllDevelopers();
+        }
+
+        public Developer? GetDeveloperById(int developerId)
+        {
+            return _developerRepo.GetDeveloperById(developerId);
+        }
+    }
+}

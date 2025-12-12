@@ -1,0 +1,161 @@
+﻿using Npgsql;
+using PayAndPerformance.Database;
+using PayAndPerformance.Models;
+
+namespace PayAndPerformance.Services
+{
+    public class PerformaRepository : BaseRepository
+    {
+        public PerformaRepository(PayAndPerformance.Database.DatabaseConnection databaseConnection) : base(databaseConnection)
+        {
+        }
+
+        public List<Performa> GetAllPerforma()
+        {
+            var performa = new List<Performa>();
+
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string query = "SELECT id, id_developer, fitur_selesai, jumlah_bug FROM performa ORDER BY id";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                var perf = new Performa
+                                {
+                                    Id = reader.GetInt32(0),
+                                    IdDeveloper = reader.GetInt32(1),
+                                    FiturSelesai = reader.GetInt32(2),
+                                    JumlahBug = reader.GetInt32(3)
+                                };
+                                performa.Add(perf);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return performa;
+        }
+
+        public void InsertPerforma(Performa performa)
+        {
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string query = "INSERT INTO performa (id_developer, fitur_selesai, jumlah_bug) VALUES (@idDeveloper, @fiturSelesai, @jumlahBug)";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@idDeveloper", performa.IdDeveloper);
+                        cmd.Parameters.AddWithValue("@fiturSelesai", performa.FiturSelesai);
+                        cmd.Parameters.AddWithValue("@jumlahBug", performa.JumlahBug);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void UpdatePerforma(Performa performa)
+        {
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string query = "UPDATE performa SET id_developer = @idDeveloper, fitur_selesai = @fiturSelesai, jumlah_bug = @jumlahBug WHERE id = @id";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", performa.Id);
+                        cmd.Parameters.AddWithValue("@idDeveloper", performa.IdDeveloper);
+                        cmd.Parameters.AddWithValue("@fiturSelesai", performa.FiturSelesai);
+                        cmd.Parameters.AddWithValue("@jumlahBug", performa.JumlahBug);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void DeletePerforma(int performaId)
+        {
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string query = "DELETE FROM performa WHERE id = @id";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", performaId);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public Performa? GetPerformaById(int performaId)
+        {
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string query = "SELECT id, id_developer, fitur_selesai, jumlah_bug FROM performa WHERE id = @id";
+
+                    using (var cmd = new NpgsqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", performaId);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                return new Performa
+                                {
+                                    Id = reader.GetInt32(0),
+                                    IdDeveloper = reader.GetInt32(1),
+                                    FiturSelesai = reader.GetInt32(2),
+                                    JumlahBug = reader.GetInt32(3)
+                                };
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return null;
+        }
+    }
+}

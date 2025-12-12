@@ -1,0 +1,12 @@
+﻿namespace PayAndPerformance.Models
+{
+    public class Developer : BaseEntity
+    {
+        public string Nama { get; set; } = string.Empty;
+        public string StatusKontrak { get; set; } = string.Empty;
+        public int FiturSelesai { get; set; }
+        public int JumlahBug { get; set; }
+        public int IdProyek { get; set; }
+        public string NamaProyek { get; set; } = string.Empty;
+    }
+}

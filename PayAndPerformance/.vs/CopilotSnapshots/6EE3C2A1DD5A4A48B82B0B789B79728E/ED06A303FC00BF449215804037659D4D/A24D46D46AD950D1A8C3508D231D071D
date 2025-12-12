@@ -1,0 +1,41 @@
+﻿namespace PayAndPerformance.Models
+{
+    public class Developer : BaseEntity
+    {
+        private string _nama = string.Empty;
+        private string _statusKontrak = string.Empty;
+        private int _fiturSelesai;
+        private int _jumlahBug;
+        private int _idProyek;
+
+        public string Nama
+        {
+            get { return _nama; }
+            set { _nama = value; }
+        }
+
+        public string StatusKontrak
+        {
+            get { return _statusKontrak; }
+            set { _statusKontrak = value; }
+        }
+
+        public int FiturSelesai
+        {
+            get { return _fiturSelesai; }
+            set { _fiturSelesai = value; }
+        }
+
+        public int JumlahBug
+        {
+            get { return _jumlahBug; }
+            set { _jumlahBug = value; }
+        }
+
+        public int IdProyek
+        {
+            get { return _idProyek; }
+            set { _idProyek = value; }
+        }
+    }
+}

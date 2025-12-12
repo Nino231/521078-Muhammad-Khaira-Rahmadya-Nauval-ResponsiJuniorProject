@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\performarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\performarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\proyekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\proyekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\statuskontrakrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\statuskontrakrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\developerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\developerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\services\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\services\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\models\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\models\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\models\\performa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\models\\performa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\models\\proyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\models\\proyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\models\\statuskontrak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\models\\statuskontrak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|c:\\users\\nauval\\source\\repos\\payandperformance\\payandperformance\\payandperformance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1D451EB-A3A9-4134-B8CB-9A3AD9C4F062}|PayAndPerformance\\PayAndPerformance.csproj|solutionrelative:payandperformance\\payandperformance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\DataService.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\DataService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:11:04.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerformaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\PerformaRepository.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\PerformaRepository.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\PerformaRepository.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\PerformaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:51.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeveloperRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\DeveloperRepository.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\DeveloperRepository.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\DeveloperRepository.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\DeveloperRepository.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAkwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:44.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\BaseRepository.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:37.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatusKontrak.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\StatusKontrak.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Models\\StatusKontrak.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\StatusKontrak.cs",
+              "RelativeToolTip": "PayAndPerformance\\Models\\StatusKontrak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:34.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Proyek.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Proyek.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Models\\Proyek.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Proyek.cs",
+              "RelativeToolTip": "PayAndPerformance\\Models\\Proyek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:32.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Performa.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Performa.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Models\\Performa.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Performa.cs",
+              "RelativeToolTip": "PayAndPerformance\\Models\\Performa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:29.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Developer.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Models\\Developer.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\Developer.cs",
+              "RelativeToolTip": "PayAndPerformance\\Models\\Developer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:26.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "PayAndPerformance\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:23.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Database\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Database\\DatabaseConnection.cs",
+              "RelativeToolTip": "PayAndPerformance\\Database\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:21.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Form1.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Form1.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Form1.cs",
+              "RelativeToolTip": "PayAndPerformance\\Form1.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:04:08.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusKontrakRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\StatusKontrakRepository.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\StatusKontrakRepository.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\StatusKontrakRepository.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\StatusKontrakRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:58.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PayAndPerformance",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\PayAndPerformance.csproj",
+              "RelativeDocumentMoniker": "PayAndPerformance\\PayAndPerformance.csproj",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\PayAndPerformance.csproj",
+              "RelativeToolTip": "PayAndPerformance\\PayAndPerformance.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-12T03:10:16.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProyekRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\ProyekRepository.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Services\\ProyekRepository.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Services\\ProyekRepository.cs",
+              "RelativeToolTip": "PayAndPerformance\\Services\\ProyekRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:10:55.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Form1.cs",
+              "RelativeDocumentMoniker": "PayAndPerformance\\Form1.cs",
+              "ToolTip": "C:\\Users\\nauval\\source\\repos\\PayAndPerformance\\PayAndPerformance\\Form1.cs [Design]",
+              "RelativeToolTip": "PayAndPerformance\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T02:15:50.584Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

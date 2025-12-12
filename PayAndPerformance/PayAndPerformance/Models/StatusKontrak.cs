@@ -1,0 +1,8 @@
+namespace PayAndPerformance.Models
+{
+    public class StatusKontrak
+    {
+        public int Id { get; set; }
+        public string Nama { get; set; } = string.Empty;
+    }
+}

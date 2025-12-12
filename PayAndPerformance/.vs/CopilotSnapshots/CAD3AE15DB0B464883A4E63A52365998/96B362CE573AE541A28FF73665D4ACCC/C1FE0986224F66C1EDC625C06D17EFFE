@@ -1,0 +1,98 @@
+﻿using PayAndPerformance.Database;
+using PayAndPerformance.Models;
+using System.Data;
+
+namespace PayAndPerformance.Services
+{
+    public class DataService
+    {
+        private readonly DeveloperRepository _developerRepo;
+        private readonly PerformaRepository _performaRepo;
+        private readonly ProyekRepository _proyekRepo;
+        private readonly StatusKontrakRepository _statusRepo;
+
+        public DataService(PayAndPerformance.Database.DatabaseConnection databaseConnection)
+        {
+            _developerRepo = new DeveloperRepository(databaseConnection);
+            _performaRepo = new PerformaRepository(databaseConnection);
+            _proyekRepo = new ProyekRepository(databaseConnection);
+            _statusRepo = new StatusKontrakRepository(databaseConnection);
+        }
+
+        public void LoadDropdownProyek(ComboBox ddProyek)
+        {
+            var proyekList = _proyekRepo.GetAllProyek();
+            ddProyek.DataSource = proyekList;
+            ddProyek.DisplayMember = "Nama";
+            ddProyek.ValueMember = "Id";
+        }
+
+        public void LoadDropdownStatusKontrak(ComboBox ddStatusKontrak)
+        {
+            var statusList = _statusRepo.GetAllStatusKontrak();
+            ddStatusKontrak.DataSource = statusList;
+            ddStatusKontrak.DisplayMember = "Nama";
+            ddStatusKontrak.ValueMember = "Id";
+        }
+
+        public void LoadPerformaGrid(DataGridView grid)
+        {
+            var performa = _performaRepo.GetAllPerforma();
+            grid.DataSource = performa;
+            grid.Columns["Id"].HeaderText = "ID";
+            grid.Columns["IdDeveloper"].HeaderText = "ID Developer";
+            grid.Columns["FiturSelesai"].HeaderText = "Fitur Selesai";
+            grid.Columns["JumlahBug"].HeaderText = "Jumlah Bug";
+        }
+
+        public void InsertDeveloper(Developer developer)
+        {
+            _developerRepo.InsertDeveloper(developer);
+        }
+
+        public void UpdateDeveloper(Developer developer)
+        {
+            _developerRepo.UpdateDeveloper(developer);
+        }
+
+        public void DeleteDeveloper(int developerId)
+        {
+            _developerRepo.DeleteDeveloper(developerId);
+        }
+
+        public void InsertPerforma(Performa performa)
+        {
+            _performaRepo.InsertPerforma(performa);
+        }
+
+        public void UpdatePerforma(Performa performa)
+        {
+            _performaRepo.UpdatePerforma(performa);
+        }
+
+        public void DeletePerforma(int performaId)
+        {
+            _performaRepo.DeletePerforma(performaId);
+        }
+
+        public List<Developer> GetAllDevelopers()
+        {
+            return _developerRepo.GetAllDevelopers();
+        }
+
+        public Developer? GetDeveloperById(int developerId)
+        {
+            return _developerRepo.GetDeveloperById(developerId);
+        }
+
+        public List<Performa> GetAllPerforma()
+        {
+            return _performaRepo.GetAllPerforma();
+        }
+
+        public Performa? GetPerformaById(int performaId)
+        {
+            return _performaRepo.GetPerformaById(performaId);
+        }
+    }
+}

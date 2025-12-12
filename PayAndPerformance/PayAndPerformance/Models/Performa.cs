@@ -1,0 +1,9 @@
+namespace PayAndPerformance.Models
+{
+    public class Performa : BaseEntity
+    {
+        public int IdDeveloper { get; set; }
+        public int FiturSelesai { get; set; }
+        public int JumlahBug { get; set; }
+    }
+}

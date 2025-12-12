@@ -1,0 +1,27 @@
+﻿namespace PayAndPerformance.Models
+{
+    public class Performa : BaseEntity
+    {
+        private int _idDeveloper;
+        private int _fiturSelesai;
+        private int _jumlahBug;
+
+        public int IdDeveloper
+        {
+            get { return _idDeveloper; }
+            set { _idDeveloper = value; }
+        }
+
+        public int FiturSelesai
+        {
+            get { return _fiturSelesai; }
+            set { _fiturSelesai = value; }
+        }
+
+        public int JumlahBug
+        {
+            get { return _jumlahBug; }
+            set { _jumlahBug = value; }
+        }
+    }
+}

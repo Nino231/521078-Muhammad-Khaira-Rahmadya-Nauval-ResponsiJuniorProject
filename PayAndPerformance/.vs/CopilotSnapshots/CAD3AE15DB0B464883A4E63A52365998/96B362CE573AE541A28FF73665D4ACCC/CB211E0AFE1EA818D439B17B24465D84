@@ -1,0 +1,27 @@
+﻿namespace PayAndPerformance.Models
+{
+    public class Developer : BaseEntity
+    {
+        private string _nama = string.Empty;
+        private int _idProyek;
+        private int _idStatusKontrak;
+
+        public string Nama
+        {
+            get { return _nama; }
+            set { _nama = value; }
+        }
+
+        public int IdProyek
+        {
+            get { return _idProyek; }
+            set { _idProyek = value; }
+        }
+
+        public int IdStatusKontrak
+        {
+            get { return _idStatusKontrak; }
+            set { _idStatusKontrak = value; }
+        }
+    }
+}

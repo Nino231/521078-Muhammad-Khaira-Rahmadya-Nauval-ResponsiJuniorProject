@@ -1,0 +1,34 @@
+﻿namespace PayAndPerformance.Models
+{
+    public class Proyek
+    {
+        private int _id;
+        private string _nama = string.Empty;
+        private string _client = string.Empty;
+        private decimal _budget;
+
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Nama
+        {
+            get { return _nama; }
+            set { _nama = value; }
+        }
+
+        public string Client
+        {
+            get { return _client; }
+            set { _client = value; }
+        }
+
+        public decimal Budget
+        {
+            get { return _budget; }
+            set { _budget = value; }
+        }
+    }
+}
